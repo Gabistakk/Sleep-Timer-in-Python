@@ -47,7 +47,7 @@ iniciar um timer por horas e minutos [3]\n
             exit()
         tempo2 = int(input("\nDigite o tanto de minutos para o sleep timer executar: "))
         os.system(f"shutdown -s -t {(tempo1 * 60) * 60 + tempo2 * 60}")
-        print(f"\n O SLEEP TIMER FOI CONFIGURADO PARA DESLIGAR DAQUI {tempo2} HORAS\nE {tempo2} MINUTOS.")
+        print(f"\n O SLEEP TIMER FOI CONFIGURADO PARA DESLIGAR DAQUI {tempo1} HORAS\nE {tempo2} MINUTOS.")
         sleep(2)
 
     else:
