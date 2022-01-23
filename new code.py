@@ -53,5 +53,3 @@ iniciar um timer por horas e minutos [3]\n
     else:
         print("\n\nERRO!\n\nDIGITE UMA DAS OPÇÕES DADAS.\n\n")
         sleep(2)
-
-"oi"
